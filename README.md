@@ -4,7 +4,7 @@ A textarea component with minimalist design.
 
 <!-- See the [demo](http://codepen.io/darlanmendonca/full/akgXQq) -->
 
-<!-- [![preview demo](https://raw.githubusercontent.com/minimalist-components/mn-textarea/master/sources/example/mn-textarea.gif)](http://codepen.io/darlanmendonca/full/akgXQq) -->
+[![preview demo](https://raw.githubusercontent.com/minimalist-components/mn-textarea/master/sources/example/mn-textarea.gif)](http://codepen.io/darlanmendonca/full/WGAvmX)
 
 ### Install
 
@@ -27,12 +27,6 @@ And then, in your html, you can use the tag ```mn-textarea``` i.e.
 
 ```html
 <mn-textarea placeholder="Username"></mn-textarea>
-```
-
-Example:
-
-```html
-<mn-textarea type="email" placeholder="Email"></mn-textarea>
 ```
 
 The following attributes from inputs are supported in this component
