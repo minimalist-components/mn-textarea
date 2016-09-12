@@ -1,0 +1,33 @@
+mn-textarea {
+  label {
+    position: absolute;
+    top: 5px;
+    left: .1em;
+    user-select: none;
+
+    font-size: 1em;
+
+    color: map-get($mn-black-color, 400);
+    transition: transform .2s ease, color .2s ease;
+    transform-origin: left center;
+    transform: translateZ(0);
+    pointer-events: none;
+  }
+
+  textarea:invalid + label {
+    color: map-get($mn-warning-color, 500);
+  }
+
+  textarea:focus + label {
+    color: map-get($mn-primary-color, 900);
+  }
+
+  textarea:disabled + label {
+    color: map-get($mn-black-color, 200);
+  }
+
+  textarea:focus + label,
+  textarea:not(:placeholder-shown) + label {
+    transform: translate(0, -1.3em) scale(.8) translateZ(0);
+  }
+}
