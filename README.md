@@ -2,7 +2,7 @@
 
 A textarea component with minimalist design.
 
-<!-- See the [demo](http://codepen.io/darlanmendonca/full/WGAvmX) -->
+See the [demo](http://codepen.io/darlanmendonca/full/WGAvmX)
 
 <!-- [![preview demo](https://raw.githubusercontent.com/minimalist-components/mn-textarea/master/sources/example/mn-textarea.gif)](http://codepen.io/darlanmendonca/full/WGAvmX) -->
 
