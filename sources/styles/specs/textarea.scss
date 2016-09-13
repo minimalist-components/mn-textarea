@@ -9,8 +9,9 @@ mn-textarea {
   position: relative;
   display: inline-block;
   margin: 2.5em .1em 0;
+  min-width: 100px;
 
-  textarea {
+  .content {
     width: 100%;
     border: 0;
     outline: 0;
@@ -26,6 +27,7 @@ mn-textarea {
     background-color: transparent;
     resize: none;
     overflow: hidden;
+    appearance: textarea;
 
 
     @include placeholder {

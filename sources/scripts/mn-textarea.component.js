@@ -12,10 +12,10 @@ function mnTextarea() {
       name: 'placeholder',
       default: 'undefined',
     },
-    {
-      name: 'rows',
-      default: '1',
-    },
+    // {
+    //   name: 'rows',
+    //   default: '1',
+    // },
     {
       name: 'value',
     },
@@ -43,28 +43,11 @@ function mnTextarea() {
   ];
 
   // textarea element
-  let textarea = document.createElement('textarea');
+  let textarea = document.createElement('div');
+  textarea.classList.add('content');
+  textarea.setAttribute('contenteditable', 'true');
   textareaAttributes.map(setInputAttribute);
   element.appendChild(textarea);
-
-  textarea.addEventListener('keyup', setHeight);
-
-  function setHeight() {
-    let breaks = (this.value.match(/\n/g) || []).length;
-    let rows;
-    switch (breaks) {
-      case 0:
-        rows = 1;
-        break;
-      case 1:
-        rows = 2;
-        break;
-      default:
-        rows = breaks + 1;
-    }
-    console.log(rows);
-    this.setAttribute('rows', rows);
-  }
 
   // label element
   let placeholder = element.getAttribute('placeholder');
