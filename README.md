@@ -18,7 +18,7 @@ Or just download the main files ```dist/mn-textarea.css, dist/mn-textarea.js``` 
 
 ```html
 <link rel="stylesheet" href="path/to/dist/mn-textarea.css">
-<script src="path/to/dist/mn-textarea.css"></script>
+<script src="path/to/dist/mn-textarea.js"></script>
 ```
 
 ### Usage
