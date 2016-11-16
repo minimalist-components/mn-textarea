@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   templates: {
     src: './sources/templates/*.jade',
@@ -10,6 +8,7 @@ module.exports = {
     watch: './sources/styles/**/*.scss',
     dest: './dist/',
     sourcemaps: '/sources/styles',
+    output: 'mn-textarea.css',
   },
   scripts: {
     src: [
@@ -17,6 +16,7 @@ module.exports = {
       '!./sources/**/*.spec.js',
     ],
     dest: './dist/',
+    output: 'mn-textarea.js',
   },
   lintScripts: [
     './gulpfile.js',
