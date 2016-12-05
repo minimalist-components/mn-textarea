@@ -4,8 +4,7 @@
   "description": "Textarea component, with minimalist design",
   "main": [
     "dist/mn-textarea.css",
-    "dist/mn-textarea.js",
-    "sources/styles/mn-textarea.scss"
+    "dist/mn-textarea.js"
   ],
   "authors": [
     "Darlan Mendonça <darlanmendonca@gmail.com>"
