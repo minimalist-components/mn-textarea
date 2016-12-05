@@ -35,4 +35,4 @@ module.exports = {
     reloadDelay: 100,
     open: false,
   },
-};
+}
