@@ -1,4 +1,4 @@
-# Minimalist textarea
+# mn-textarea
 
 A textarea component with minimalist design.
 
@@ -8,19 +8,11 @@ See the [demo](http://codepen.io/darlanmendonca/full/WGAvmX)
 
 ### Install
 
-With bower
-
 ```sh
 bower install --save mn-textarea
 ```
 
-Or just download the main files ```dist/mn-textarea.css, dist/mn-textarea.js``` in your project, and make a reference to their, like:
-
-```html
-<link rel="stylesheet" href="path/to/dist/mn-textarea.css">
-<script src="path/to/dist/vendor.js"></script>
-<script src="path/to/dist/mn-textarea.js"></script>
-```
+Or just download the main files, located in [dist/](https://github.com/minimalist-components/mn-textarea/tree/master/dist)
 
 ### Usage
 
